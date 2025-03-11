@@ -217,6 +217,7 @@ namespace RtfPipe
         case "stylesheet":
           return new StyleSheetTag();
         case "s":
+        case "cs":
           return new StyleRef(number);
 
         // Color
